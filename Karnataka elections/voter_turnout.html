@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="f788ae96-4293-4b5f-b57c-d429cde69437" data-root-id="1075"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1236">
+          {"e00ad0dc-2dbd-4ce2-a696-649e9a0065b1":{"defs":[],"roots":{"references":[{"attributes":{},"id":"1080","type":"DataRange1d"},{"attributes":{},"id":"1126","type":"Selection"},{"attributes":{"coordinates":null,"group":null,"text":"Voter Turnout by Constituency"},"id":"1076","type":"Title"},{"attributes":{"axis_label":"Constituency","coordinates":null,"formatter":{"id":"1123"},"group":null,"major_label_orientation":45,"major_label_policy":{"id":"1124"},"ticker":{"id":"1087"}},"id":"1086","type":"CategoricalAxis"},{"attributes":{"axis":{"id":"1086"},"coordinates":null,"group":null,"ticker":null},"id":"1088","type":"Grid"},{"attributes":{"axis":{"id":"1089"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1092","type":"Grid"},{"attributes":{},"id":"1084","type":"LinearScale"},{"attributes":{},"id":"1097","type":"ResetTool"},{"attributes":{},"id":"1098","type":"HelpTool"},{"attributes":{},"id":"1090","type":"BasicTicker"},{"attributes":{"below":[{"id":"1086"}],"center":[{"id":"1088"},{"id":"1092"}],"height":500,"left":[{"id":"1089"}],"renderers":[{"id":"1113"}],"title":{"id":"1076"},"toolbar":{"id":"1100"},"toolbar_location":null,"width":800,"x_range":{"id":"1078"},"x_scale":{"id":"1082"},"y_range":{"id":"1080"},"y_scale":{"id":"1084"}},"id":"1075","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1096","type":"SaveTool"},{"attributes":{"factors":["Yeshwanthapura","Yelahanka","Anekal","Chickpet","Byatarayanapura","Gandhinagar","Jayanagar","Padmanabanagar","Shivajinagar","Rajajinagar","Malleshwaram","Grand Total","Mahadevapura","Bangalore South","Basavanagudi","Hebbal","Mahalakshmi Layout","Chamrajapet","Govindarajanagar","Shantinagar","Rajarajeshwarinagar","Sarvagnanagar","K.R. Pura","Vijayanagar","Pulakeshinagar (SC)","Dasarahalli","B.T.M Layout","C.V. RamanNagar (SC)","Bommanahalli"],"palette":["#1f77b4","#aec7e8","#ff7f0e","#ffbb78","#2ca02c","#98df8a","#d62728","#ff9896","#9467bd","#c5b0d5","#8c564b","#c49c94","#e377c2","#f7b6d2","#7f7f7f","#c7c7c7","#bcbd22","#dbdb8d","#17becf","#9edae5"]},"id":"1108","type":"CategoricalColorMapper"},{"attributes":{},"id":"1093","type":"PanTool"},{"attributes":{"axis_label":"Turnout Percentage","coordinates":null,"formatter":{"id":"1117"},"group":null,"major_label_policy":{"id":"1121"},"ticker":{"id":"1090"}},"id":"1089","type":"LinearAxis"},{"attributes":{},"id":"1121","type":"AllLabels"},{"attributes":{},"id":"1094","type":"WheelZoomTool"},{"attributes":{},"id":"1125","type":"UnionRenderers"},{"attributes":{"factors":["Yeshwanthapura","Yelahanka","Anekal","Chickpet","Byatarayanapura","Gandhinagar","Jayanagar","Padmanabanagar","Shivajinagar","Rajajinagar","Malleshwaram","Grand Total","Mahadevapura","Bangalore South","Basavanagudi","Hebbal","Mahalakshmi Layout","Chamrajapet","Govindarajanagar","Shantinagar","Rajarajeshwarinagar","Sarvagnanagar","K.R. Pura","Vijayanagar","Pulakeshinagar (SC)","Dasarahalli","B.T.M Layout","C.V. RamanNagar (SC)","Bommanahalli"]},"id":"1078","type":"FactorRange"},{"attributes":{"tools":[{"id":"1093"},{"id":"1094"},{"id":"1095"},{"id":"1096"},{"id":"1097"},{"id":"1098"},{"id":"1115"}]},"id":"1100","type":"Toolbar"},{"attributes":{"data":{"AC No":{"__ndarray__":"AAAAAAAgY0AAAAAAAMBiQAAAAAAAIGZAAAAAAAAgZUAAAAAAAABjQAAAAAAAgGRAAAAAAACgZUAAAAAAAGBlQAAAAAAAQGRAAAAAAACgZEAAAAAAAKBjQAAAAAAAAPh/AAAAAADAZUAAAAAAAABmQAAAAAAAQGVAAAAAAADAY0AAAAAAAIBjQAAAAAAAAGVAAAAAAADAZEAAAAAAAGBkQAAAAAAAQGNAAAAAAAAAZEAAAAAAAOBiQAAAAAAA4GRAAAAAAADgY0AAAAAAAGBjQAAAAAAAgGVAAAAAAAAgZEAAAAAAAOBlQA==","dtype":"float64","order":"little","shape":[29]},"Constituency Name":["Yeshwanthapura","Yelahanka","Anekal","Chickpet","Byatarayanapura","Gandhinagar","Jayanagar","Padmanabanagar","Shivajinagar","Rajajinagar","Malleshwaram","Grand Total","Mahadevapura","Bangalore South","Basavanagudi","Hebbal","Mahalakshmi Layout","Chamrajapet","Govindarajanagar","Shantinagar","Rajarajeshwarinagar","Sarvagnanagar","K.R. Pura","Vijayanagar","Pulakeshinagar (SC)","Dasarahalli","B.T.M Layout","C.V. RamanNagar (SC)","Bommanahalli"],"Total Female Voters":[276266,215272,191683,108420,245937,112108,104345,137055,96360,102619,113672,4686813,280346,328920,114656,141720,142586,111960,143484,108797,235189,181800,244188,146804,118714,213521,131717,128529,210145],"Total Male Voters":[287823,223529,210826,112769,262739,119277,105582,141867,97685,104899,113763,5024775,326692,366719,118929,147155,149379,117899,152854,111931,250503,184871,266236,158860,120303,243448,143266,142565,242406],"Total Other Voters":[83,82,86,19,123,25,15,21,10,11,8,1761,120,103,2,53,39,39,42,50,80,65,167,171,38,77,45,117,70],"Total Voted":[356737,275040,250863,128559,293791,132280,119997,159189,110044,117459,125278,5342332,333753,381103,127552,157128,158419,124491,160455,119514,261390,194105,268206,158170,122997,228447,134317,128666,214382],"Total Voted Female":[178620,136423,122962,63257,144984,64362,59461,79076,54196,58412,63330,2635385,159632,184459,63299,77870,79673,60573,80026,60112,131511,96102,130679,77398,65417,111832,65886,63123,102710],"Total Voted Male":[178107,138599,127879,65299,148769,67899,60536,80109,55844,59041,61948,2706572,174113,196631,64253,79245,78734,63908,80423,59397,129853,97990,137483,80734,57568,116608,68425,65509,111668],"Total Voted Other":[10,18,22,3,38,19,0,4,4,6,0,375,8,13,0,13,12,10,6,5,26,13,44,38,12,7,6,34,4],"Total Voters":[564172,438883,402595,221208,508799,231410,209942,278943,194055,207529,227443,9713349,607158,695742,233587,288928,292004,229898,296380,220778,485772,366736,510591,305835,239055,457046,275028,271211,452621],"Turnout (%)":{"__ndarray__":"PQrXo3CdT0D2KFyPwlVPQEjhehSuJ09Aj8L1KFwPTUAfhetRuN5MQBSuR+F6lExAFK5H4XqUTEApXI/C9YhMQHsUrkfhWkxAzczMzMxMTEAK16NwPYpLQAAAAAAAgEtAXI/C9Sh8S0CkcD0K12NLQK5H4XoUTktAcT0K16MwS0AAAAAAACBLQDMzMzMzE0tAUrgehesRS0BxPQrXoxBLQEjhehSu50pA16NwPQp3SkCkcD0K10NKQFyPwvUo3ElAmpmZmZm5SUA9CtejcP1IQOxRuB6Fa0hAuB6F61G4R0CuR+F6FK5HQA==","dtype":"float64","order":"little","shape":[29]},"Turnout Percentage":{"__ndarray__":"pVShybCdT0D1fTUCh1VPQCyh7V3fJ09ASqvpI/MOTUCfhB2r+95MQNSrxHbQlExAsDO/nR+UTEDvgsx4yYhMQD7I3sOTWkxAJVwUr6ZMTEB+byb0X4pLQAues6T8f0tAvM9VgB98S0CPjH3NY2NLQIIiACeKTUtAaueGYgkxS0CLsgelTCBLQNXyN8ZEE0tAsiS8x7IRS0Cu7L7ICRFLQJVJ7a6T50pAz90MgL92SkDcsbI2p0NKQC7OcLnU20lA9cplf8W5SUDVZ9Yd3/1IQCFXvpY1a0hAth8JOny4R0DH86VMqq5HQA==","dtype":"float64","order":"little","shape":[29]},"index":[3,0,27,19,2,14,23,21,12,15,7,28,24,26,20,8,6,18,16,13,4,10,1,17,9,5,22,11,25]},"selected":{"id":"1126"},"selection_policy":{"id":"1125"}},"id":"1107","type":"ColumnDataSource"},{"attributes":{"fill_color":{"field":"Constituency Name","transform":{"id":"1108"}},"line_color":{"value":"white"},"top":{"field":"Turnout Percentage"},"width":{"value":0.8},"x":{"field":"Constituency Name"}},"id":"1110","type":"VBar"},{"attributes":{"overlay":{"id":"1099"}},"id":"1095","type":"BoxZoomTool"},{"attributes":{"coordinates":null,"data_source":{"id":"1107"},"glyph":{"id":"1110"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1112"},"nonselection_glyph":{"id":"1111"},"view":{"id":"1114"}},"id":"1113","type":"GlyphRenderer"},{"attributes":{"source":{"id":"1107"}},"id":"1114","type":"CDSView"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"Constituency Name","transform":{"id":"1108"}},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"white"},"top":{"field":"Turnout Percentage"},"width":{"value":0.8},"x":{"field":"Constituency Name"}},"id":"1112","type":"VBar"},{"attributes":{},"id":"1087","type":"CategoricalTicker"},{"attributes":{},"id":"1082","type":"CategoricalScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"Constituency Name","transform":{"id":"1108"}},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"white"},"top":{"field":"Turnout Percentage"},"width":{"value":0.8},"x":{"field":"Constituency Name"}},"id":"1111","type":"VBar"},{"attributes":{"format":"0.0"},"id":"1117","type":"NumeralTickFormatter"},{"attributes":{"callback":null,"tooltips":[["Constituency","@{Constituency Name}"],["Turnout Percentage","@{Turnout Percentage}{0.2f}%"]]},"id":"1115","type":"HoverTool"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1099","type":"BoxAnnotation"},{"attributes":{},"id":"1123","type":"CategoricalTickFormatter"},{"attributes":{},"id":"1124","type":"AllLabels"}],"root_ids":["1075"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1236').textContent;
+                  const render_items = [{"docid":"e00ad0dc-2dbd-4ce2-a696-649e9a0065b1","root_ids":["1075"],"roots":{"1075":"f788ae96-4293-4b5f-b57c-d429cde69437"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
